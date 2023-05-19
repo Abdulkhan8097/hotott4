@@ -1,0 +1,11 @@
+/writable/session/ci_sessionecad35a45240e45a10414e6e7b1f5646ce5674b2
+/writable/session/ci_session11d5dcadcbbfc59bf68a18fbebbfb4419676377d
+/writable/session/
+/writable/logs/
+/writable/debugbar/
+/writable/cache/
+/writable/uploads/
+/public/users/
+/.env
+app/Config/Database.php
+app/Config/App.php

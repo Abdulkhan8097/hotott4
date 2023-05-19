@@ -1,0 +1,42 @@
+body{
+    background: #fff;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+  }
+  .sider{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.sold-head{
+    font-size: 26px;
+    font-weight: 600;
+}
+.sold-adress{
+    font-size: 20px;
+}
+.code-adress{
+    font-size: 22px;
+    font-weight: 600; 
+}
+.value{
+    font-size: 20px;
+    font-size: 400!important;
+    text-transform: uppercase;
+}
+.Description{
+   flex-grow: 6;
+}
