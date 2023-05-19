@@ -1,0 +1,94 @@
+CRITICAL - 2023-04-04 12:16:59 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hotott\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hotott\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hotott\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hotott\app\Models\AdminModel.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(46): App\Models\AdminModel->checkAdminLogin('genie@gmail.com', '123456')
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-04 12:17:11 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hotott\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hotott\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hotott\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hotott\app\Models\AdminModel.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(46): App\Models\AdminModel->checkAdminLogin('genie@gmail.com', '123456')
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-04 12:48:48 --> syntax error, unexpected '='
+#0 C:\xampp\htdocs\hotott\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\hotott\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-04 12:48:49 --> syntax error, unexpected '='
+#0 C:\xampp\htdocs\hotott\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\hotott\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-04 13:38:10 --> Invalid file: admin/change_password.php
+#0 C:\xampp\htdocs\hotott\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/change_pa...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(357): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-04 13:38:10 --> Invalid file: admin/change_password.php
+#0 C:\xampp\htdocs\hotott\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/change_pa...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(357): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-04 15:30:45 --> Cannot redeclare App\Controllers\Admin::update_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-04 15:30:47 --> Cannot redeclare App\Controllers\Admin::update_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-04 15:31:05 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/edit_pass...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/edit_pass...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 15:31:07 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/edit_pass...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/edit_pass...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-04 15:31:28 --> Cannot redeclare App\Controllers\Admin::update_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-04 15:31:29 --> Cannot redeclare App\Controllers\Admin::update_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-04 15:31:29 --> Cannot redeclare App\Controllers\Admin::update_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-04-04 15:31:30 --> Cannot redeclare App\Controllers\Admin::update_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

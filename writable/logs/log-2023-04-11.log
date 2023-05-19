@@ -1,0 +1,123 @@
+CRITICAL - 2023-04-11 11:25:34 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hotott\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hotott\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hotott\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hotott\app\Models\AdminModel.php(65): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(46): App\Models\AdminModel->checkAdminLogin('HT16231', '123456')
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-11 12:14:04 --> Call to a member function getData() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:14:04 --> Call to a member function getData() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:14:21 --> Call to undefined method App\Models\GeneratelinksModel::getDataRenewalPurchasePIN
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1053): CodeIgniter\Model->__call('getDataRenewalP...', Array)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 12:14:22 --> Call to undefined method App\Models\GeneratelinksModel::getDataRenewalPurchasePIN
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1053): CodeIgniter\Model->__call('getDataRenewalP...', Array)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 12:14:23 --> Call to undefined method App\Models\GeneratelinksModel::getDataRenewalPurchasePIN
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1053): CodeIgniter\Model->__call('getDataRenewalP...', Array)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 12:14:27 --> Call to undefined method App\Models\GeneratelinksModel::getDataRenewalPurchasePIN
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1053): CodeIgniter\Model->__call('getDataRenewalP...', Array)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 12:33:37 --> Call to undefined function App\Controllers\getLongUrl()
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkGenerate()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:33:38 --> Call to undefined function App\Controllers\getLongUrl()
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkGenerate()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:33:39 --> Call to undefined function App\Controllers\getLongUrl()
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkGenerate()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:33:40 --> Call to undefined function App\Controllers\getLongUrl()
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkGenerate()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:34:18 --> Call to undefined function App\Controllers\getLongUrl()
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkGenerate()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 12:34:19 --> Call to undefined function App\Controllers\getLongUrl()
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkGenerate()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 13:10:11 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('PinController/u...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('PinController/u...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 13:10:12 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('PinController/u...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('PinController/u...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 13:15:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\hotott\app\Views\admin\Links\linklist.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Links/lin...', Array, true)
+#3 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Links/lin...', Array)
+#4 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1053): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Links/lin...', Array)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-11 13:15:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\hotott\app\Views\admin\Links\linklist.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Links/lin...', Array, true)
+#3 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Links/lin...', Array)
+#4 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1053): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Links/lin...', Array)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->linkslist()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

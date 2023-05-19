@@ -1,0 +1,483 @@
+CRITICAL - 2023-02-11 12:48:49 --> Invalid file: admin/change_password.php
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/change_pa...', Array)
+#3 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(324): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-11 12:59:48 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#3 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#4 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(89): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-11 13:17:17 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customerlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#3 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#4 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(81): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->Allcustomerlist()
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-11 13:43:19 --> mysqli_query() expects parameter 1 to be mysqli, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 230, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(230): mysqli_query(NULL, 'Select id,name ...')
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 13:46:57 --> mysqli_query() expects parameter 1 to be mysqli, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(190): mysqli_query(NULL, 'Select id,name ...')
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 14:00:58 --> mysqli_query() expects parameter 1 to be mysqli, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(190): mysqli_query(NULL, 'Select id,name ...')
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 15:19:53 --> mysqli_query() expects parameter 1 to be mysqli, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_query() ...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(190): mysqli_query(NULL, 'Select id,name ...')
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 15:20:32 --> include(admin/config.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/c...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(1): include()
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#8 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 15:26:06 --> mysqli_connect(): (HY000/1049): Unknown database 'jht'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\config.php(3): mysqli_connect('localhost', 'root', '', 'jht')
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/config.ph...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(1): view('admin/config.ph...')
+#5 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#7 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#8 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#9 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#10 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 15:26:08 --> mysqli_connect(): (HY000/1049): Unknown database 'jht'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\hotott1\app\Views\admin\config.php(3): mysqli_connect('localhost', 'root', '', 'jht')
+#2 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/config.ph...', Array, true)
+#4 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customer_form.php(1): view('admin/config.ph...')
+#5 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#7 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#8 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(93): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#9 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#10 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#11 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 15:53:13 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\hotott1\app\Views\admin\customer\customerlist.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#3 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#4 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(81): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->Allcustomerlist()
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-11 16:08:39 --> Class 'App\Controllers\BaseController' not found
+#0 C:\xampp\htdocs\hotott1\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\hotott1\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott1\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-11 16:11:16 --> Class 'App\Models\OrdersModel' not found
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/topmenu', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Views\admin\header.php(58): view('admin/topmenu')
+#3 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/header', Array, true)
+#5 C:\xampp\htdocs\hotott1\app\Views\admintemplate.php(1): view('admin/header')
+#6 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admintemplate', Array, true)
+#8 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(17): view('admintemplate', Array)
+#9 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(85): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#10 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#11 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#12 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-11 16:12:32 --> Class 'App\Models\OrdersModel' not found
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/topmenu', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Views\admin\header.php(58): view('admin/topmenu')
+#3 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/header', Array, true)
+#5 C:\xampp\htdocs\hotott1\app\Views\admintemplate.php(1): view('admin/header')
+#6 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admintemplate', Array, true)
+#8 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(17): view('admintemplate', Array)
+#9 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(85): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#10 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#11 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#12 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-11 16:12:37 --> Class 'App\Models\OrdersModel' not found
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/topmenu', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Views\admin\header.php(58): view('admin/topmenu')
+#3 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/header', Array, true)
+#5 C:\xampp\htdocs\hotott1\app\Views\admintemplate.php(1): view('admin/header')
+#6 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admintemplate', Array, true)
+#8 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(17): view('admintemplate', Array)
+#9 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(85): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#10 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#11 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#12 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-11 16:14:44 --> Class 'App\Models\CompanyModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:15:36 --> Class 'App\Models\VipModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:18:33 --> Class 'App\Models\OrdersModel' not found
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/topmenu', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Views\admin\header.php(58): view('admin/topmenu')
+#3 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/header', Array, true)
+#5 C:\xampp\htdocs\hotott1\app\Views\admintemplate.php(1): view('admin/header')
+#6 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admintemplate', Array, true)
+#8 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(17): view('admintemplate', Array)
+#9 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(233): App\Libraries\Template->render('admintemplate', 'contents', 'admin/dashboard', Array)
+#10 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#11 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-02-11 16:34:55 --> Class 'App\Models\EmployeeModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:35:43 --> Class 'App\Models\EmployeeModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:36:57 --> Invalid file: admin/change_password.php
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/change_pa...', Array)
+#3 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(256): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-11 16:48:44 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:49:49 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:50:30 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:52:16 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:54:47 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 16:54:54 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:00:24 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:00:38 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:00:42 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:00:45 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:01:33 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:01:35 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:01:37 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:01:43 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:01:55 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:03:35 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:06:21 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:06:25 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:06:40 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:06:49 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:07:44 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:08:39 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:13:26 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:14:06 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:16:25 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:20:13 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:20:15 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:29:12 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:31:29 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:31:56 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:33:08 --> syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\hotott1\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('CustomerControl...')
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('CustomerControl...')
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 17:33:19 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:34:06 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:34:07 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_state()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:40:30 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_city()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:40:50 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_city()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:41:23 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_city()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 17:41:36 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->ajax_city()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 18:53:24 --> Class 'App\Models\CustomerModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->Allcustomerlist()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 18:54:30 --> Class 'App\Models\CustomerModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->Allcustomerlist()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

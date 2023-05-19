@@ -1,0 +1,32 @@
+CRITICAL - 2023-04-26 15:53:25 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Wallet/wi...', NULL)
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(313): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Wallet/wi...', NULL)
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->withdrawPoint()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-26 15:53:28 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Wallet/wi...', NULL)
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(313): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Wallet/wi...', NULL)
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->withdrawPoint()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-26 15:53:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Wallet/wi...', NULL)
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(313): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Wallet/wi...', NULL)
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->withdrawPoint()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-26 15:54:00 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Wallet/wi...', NULL)
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(313): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Wallet/wi...', NULL)
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->withdrawPoint()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

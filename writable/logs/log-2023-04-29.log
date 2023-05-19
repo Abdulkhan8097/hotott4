@@ -1,0 +1,12 @@
+CRITICAL - 2023-04-29 15:38:28 --> Class 'App\Controllers\UserModel' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\Reward->userlist()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reward))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-29 15:39:41 --> Class 'App\Controllers\OfferClaimModel' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\Reward->claim()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reward))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

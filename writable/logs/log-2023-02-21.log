@@ -1,0 +1,112 @@
+CRITICAL - 2023-02-21 11:47:29 --> Cannot declare class App\Controllers\Transaction because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-21 11:47:34 --> Cannot declare class App\Controllers\Transaction because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-21 11:48:58 --> Class 'App\Models\transaction' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-21 11:50:01 --> Call to undefined method App\Models\TransactionModel::getData
+#0 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(49): CodeIgniter\Model->__call('getData', Array)
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-21 12:02:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\hotott1\app\Views\admin\transaction\transactionlist.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 142, Array)
+#1 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(68): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-21 12:16:51 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 12:25:55 --> Call to undefined function writeMsg()
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-21 12:41:42 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 12:47:51 --> syntax error, unexpected 'print_r' (T_STRING)
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 12:48:12 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 12:50:25 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 12:50:54 --> syntax error, unexpected 'exit' (T_EXIT)
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\TransactionController.php(70): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 18:20:04 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\kansh_dev\system\Common.php(1119): CodeIgniter\View\View->render('frontend/bookin...', Array, true)
+#1 C:\xampp\htdocs\kansh_dev\app\Libraries\Template.php(15): view('frontend/bookin...', Array)
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(31): App\Libraries\Template->render('template', 'contents', 'frontend/bookin...', Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-21 18:37:18 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\kansh_dev\system\Common.php(1119): CodeIgniter\View\View->render('frontend/bookin...', Array, true)
+#1 C:\xampp\htdocs\kansh_dev\app\Libraries\Template.php(15): view('frontend/bookin...', Array)
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(31): App\Libraries\Template->render('template', 'contents', 'frontend/bookin...', Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}

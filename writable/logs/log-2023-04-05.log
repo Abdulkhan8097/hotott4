@@ -1,0 +1,34 @@
+CRITICAL - 2023-04-05 12:24:43 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\Admin.php on line 363
+#0 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(363): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->update_password()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 12:27:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\Admin.php on line 364
+#0 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(364): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->update_password()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 12:42:36 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/profile/c...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/profile/c...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(327): App\Libraries\Template->render('admintemplate', 'contents', 'admin/profile/c...')
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-05 12:42:38 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/profile/c...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/profile/c...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(327): App\Libraries\Template->render('admintemplate', 'contents', 'admin/profile/c...')
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

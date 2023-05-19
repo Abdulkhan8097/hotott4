@@ -1,0 +1,247 @@
+CRITICAL - 2023-04-13 13:18:10 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/usert...', NULL)
+#1 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1112): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/usert...', NULL)
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->userTransferPin()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-13 13:18:10 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/usert...', NULL)
+#1 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1112): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/usert...', NULL)
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->userTransferPin()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-13 15:21:57 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('PinController/p...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('PinController/p...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 15:21:58 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('PinController/p...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('PinController/p...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 16:09:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1158
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1158): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 16:15:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1158
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1158): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 16:15:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1158
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1158): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 16:55:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1197
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1197): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 16:59:33 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1197
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1197): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 16:59:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1197
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1197): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:02:21 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1197
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1197): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:02:46 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1198
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1198): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:05:19 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1191
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1191): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:07:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1193
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1193): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:14:34 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1201
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1201): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:15:50 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1201
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1201): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:16:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1202
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1202): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:16:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:16:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:19:02 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:19:22 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:19:40 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:20:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:20:51 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:21:08 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:23:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1203
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1203): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:37:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1206
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1206): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:40:11 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:41:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:41:15 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:41:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:42:50 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:43:13 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:43:23 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-13 17:43:43 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\PinController.php on line 1210
+#0 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(1210): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->pinTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

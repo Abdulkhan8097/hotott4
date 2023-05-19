@@ -1,0 +1,77 @@
+CRITICAL - 2023-04-07 16:56:10 --> Access denied for user 'genie'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\hotott\app\Views\admin\transaction\transactionlist.php(167): mysqli_connect('localhost', 'genie', 'Genie@20', 'ott_mlm')
+#1 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 16:56:11 --> Access denied for user 'genie'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\hotott\app\Views\admin\transaction\transactionlist.php(167): mysqli_connect('localhost', 'genie', 'Genie@20', 'ott_mlm')
+#1 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-07 16:59:41 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott\app\Controllers\Admin.php on line 48
+#0 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(48): view('otp', NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-07 19:51:03 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 19:52:42 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 19:53:15 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 19:54:43 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 19:56:02 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 19:56:46 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 20:01:08 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-07 20:01:27 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

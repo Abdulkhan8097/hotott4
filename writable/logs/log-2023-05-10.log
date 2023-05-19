@@ -1,0 +1,133 @@
+CRITICAL - 2023-05-10 10:45:01 --> Call to undefined method App\Models\InvoiceModel::getData
+#0 /home/hotottco/public_html/hotottBusiness/app/Controllers/InvoiceController.php(24): CodeIgniter\Model->__call('getData', Array)
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\InvoiceController->index()
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#3 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-10 12:08:50 --> Class 'App\Controllers\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 12:10:41 --> Class 'App\Controllers\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 12:25:03 --> Class 'App\Controllers\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 12:25:09 --> Class 'App\Controllers\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 12:32:29 --> Class 'App\Controllers\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 12:33:19 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 12:33:20 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:23:29 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:30:48 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:30:49 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:30:49 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:30:50 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:34:51 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 13:34:55 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-10 15:47:47 --> Call to undefined function SUM()
+#0 /home/hotottco/public_html/hotottBusiness/system/View/View.php(246): include()
+#1 /home/hotottco/public_html/hotottBusiness/system/Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 /home/hotottco/public_html/hotottBusiness/app/Libraries/Template.php(15): view('admin/transacti...', Array)
+#3 /home/hotottco/public_html/hotottBusiness/app/Controllers/TransactionController.php(111): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-10 16:00:30 --> Unsupported operand types
+#0 /home/hotottco/public_html/hotottBusiness/system/View/View.php(246): include()
+#1 /home/hotottco/public_html/hotottBusiness/system/Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 /home/hotottco/public_html/hotottBusiness/app/Libraries/Template.php(15): view('admin/transacti...', Array)
+#3 /home/hotottco/public_html/hotottBusiness/app/Controllers/TransactionController.php(111): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-10 16:02:22 --> A non-numeric value encountered
+#0 /home/hotottco/public_html/hotottBusiness/app/Views/admin/transaction/transactionlist.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/hotottco/...', 187, Array)
+#1 /home/hotottco/public_html/hotottBusiness/system/View/View.php(246): include('/home/hotottco/...')
+#2 /home/hotottco/public_html/hotottBusiness/system/Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 /home/hotottco/public_html/hotottBusiness/app/Libraries/Template.php(15): view('admin/transacti...', Array)
+#4 /home/hotottco/public_html/hotottBusiness/app/Controllers/TransactionController.php(111): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-10 16:02:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home/hotottco/public_html/hotottBusiness/app/Views/admin/transaction/transactionlist.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/hotottco/...', 187, Array)
+#1 /home/hotottco/public_html/hotottBusiness/system/View/View.php(246): include('/home/hotottco/...')
+#2 /home/hotottco/public_html/hotottBusiness/system/Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 /home/hotottco/public_html/hotottBusiness/app/Libraries/Template.php(15): view('admin/transacti...', Array)
+#4 /home/hotottco/public_html/hotottBusiness/app/Controllers/TransactionController.php(111): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

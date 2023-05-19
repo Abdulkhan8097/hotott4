@@ -1,0 +1,336 @@
+CRITICAL - 2023-04-25 11:46:05 --> Class 'App\Controllers\Paginationnew' not found
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-25 11:46:05 --> Class 'App\Controllers\Paginationnew' not found
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-25 15:25:20 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:25:22 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:29:41 --> syntax error, unexpected 'badge' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:29:42 --> syntax error, unexpected 'badge' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:29:42 --> syntax error, unexpected 'badge' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:29:43 --> syntax error, unexpected 'badge' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:30:02 --> syntax error, unexpected 'badge' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:30:02 --> syntax error, unexpected 'badge' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(863): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:52:31 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:52:33 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:53:57 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 15:53:59 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:00:29 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:00:30 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:00:30 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:00:31 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:00:49 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(865): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:36:14 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(907): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:36:15 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(907): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:43:22 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:43:23 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:43:55 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:43:56 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:48:42 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:48:43 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:48:55 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:48:56 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:49:24 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 16:49:25 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(911): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:17:12 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:17:13 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:20:31 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:21:11 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:21:11 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:28:26 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-25 17:28:27 --> syntax error, unexpected '{'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/activetea...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/activetea...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(912): App\Libraries\Template->render('admintemplate', 'contents', 'admin/activetea...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->activeTeam()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

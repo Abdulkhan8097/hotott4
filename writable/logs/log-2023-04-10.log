@@ -1,0 +1,196 @@
+CRITICAL - 2023-04-10 18:36:20 --> Access denied for user 'genie'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\hotott\app\Views\admin\transaction\transactionlist.php(167): mysqli_connect('localhost', 'genie', 'Genie@20', 'ott_mlm')
+#1 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-10 18:36:21 --> Access denied for user 'genie'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\hotott\app\Views\admin\transaction\transactionlist.php(167): mysqli_connect('localhost', 'genie', 'Genie@20', 'ott_mlm')
+#1 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#3 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-10 18:46:35 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 18:46:35 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 18:46:36 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 18:46:36 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 18:46:36 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 18:46:37 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 18:46:58 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:46:59 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:46:59 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:47:00 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:47:25 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:47:26 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:47:33 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:47:33 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:48:52 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:48:53 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:48:53 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-10 18:48:54 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/transacti...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/transacti...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\TransactionController.php(77): App\Libraries\Template->render('admintemplate', 'contents', 'admin/transacti...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\TransactionController->index()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

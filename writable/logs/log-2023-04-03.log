@@ -1,0 +1,201 @@
+CRITICAL - 2023-04-03 11:03:00 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hotott\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hotott\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hotott\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hotott\app\Models\AdminModel.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(46): App\Models\AdminModel->checkAdminLogin('genie@gmail.com', '123456')
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-03 11:03:13 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hotott\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hotott\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hotott\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hotott\app\Models\AdminModel.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\hotott\app\Controllers\Admin.php(46): App\Models\AdminModel->checkAdminLogin('genie@gmail.com', '123456')
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-03 11:17:16 --> json_encode() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() e...', 'C:\\xampp\\htdocs...', 405, Array)
+#1 C:\xampp\htdocs\hotott\app\Views\admin\Pin\purchasepinlist.php(405): json_encode()
+#2 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#4 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#5 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#8 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-03 12:10:19 --> json_encode() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() e...', 'C:\\xampp\\htdocs...', 415, Array)
+#1 C:\xampp\htdocs\hotott\app\Views\admin\Pin\purchasepinlist.php(415): json_encode()
+#2 C:\xampp\htdocs\hotott\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#4 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#5 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#7 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#8 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-03 12:10:35 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-03 12:10:37 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-03 12:10:49 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#1 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#2 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-03 13:07:51 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode('_', '16-37-HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:08:06 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode('-', '16-37-HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:08:08 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode('-', '16-37-HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:08:34 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode('-', '16-37-HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:09:55 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ', '16 38 3mpPwwG4a...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:12:07 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:12:42 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:12:43 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:12:43 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:12:44 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:13:38 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(' ,', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:13:51 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(',', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:15:57 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(46): implode(',', '16,37,HqeP3LIxN...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-03 13:19:47 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-03 13:37:04 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-03 13:44:29 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-03 13:46:39 --> Call to a member function setFlashdata() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->newUserSave()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

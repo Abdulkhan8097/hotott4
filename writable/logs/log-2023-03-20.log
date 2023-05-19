@@ -1,0 +1,38 @@
+CRITICAL - 2023-03-20 16:08:30 --> Invalid file: Invite.php
+#0 C:\xampp\htdocs\hotott\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Invite.php')
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('Invite', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(10): view('Invite')
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-20 16:08:32 --> Invalid file: Invite.php
+#0 C:\xampp\htdocs\hotott\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Invite.php')
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('Invite', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Controllers\Invite.php(10): view('Invite')
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\Invite->index()
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invite))
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-20 18:35:38 --> Call to undefined function file_get_content()
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-20 18:35:40 --> Call to undefined function file_get_content()
+#0 C:\xampp\htdocs\hotott\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\hotott\system\Common.php(1119): CodeIgniter\View\View->render('admin/Pin/purch...', Array, true)
+#2 C:\xampp\htdocs\hotott\app\Libraries\Template.php(15): view('admin/Pin/purch...', Array)
+#3 C:\xampp\htdocs\hotott\app\Controllers\PinController.php(921): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Pin/purch...', Array)
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->purchasePinList()
+#5 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#6 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,294 @@
+CRITICAL - 2023-02-14 11:51:26 --> Class 'App\Controllers\CustomerModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->edit_customer()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-14 11:52:19 --> Class 'App\Controllers\CustomerModel' not found
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->edit_customer()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-14 12:11:21 --> syntax error, unexpected 'selected' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:11:51 --> syntax error, unexpected ''; ?>>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:18:52 --> syntax error, unexpected ''; ?> >'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:19:35 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:20:05 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:20:06 --> syntax error, unexpected '/'
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:20:26 --> syntax error, unexpected 'Indian' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:21:58 --> syntax error, unexpected ''; ?>>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:22:51 --> syntax error, unexpected ''; ?>">'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:23:14 --> syntax error, unexpected '?'
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:23:26 --> syntax error, unexpected '?'
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:25:07 --> syntax error, unexpected 'selected' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:25:22 --> syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:26:52 --> syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:27:04 --> syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:29:34 --> syntax error, unexpected 'selected' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:29:55 --> syntax error, unexpected 'selected' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:30:47 --> syntax error, unexpected 'selected' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:30:59 --> syntax error, unexpected '';'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:34:09 --> syntax error, unexpected '$edit' (T_VARIABLE), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:34:48 --> syntax error, unexpected '$edit' (T_VARIABLE), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:35:16 --> syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:35:36 --> syntax error, unexpected ''">'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 12:37:12 --> syntax error, unexpected '.=' (T_CONCAT_EQUAL), expecting ';' or ','
+#0 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/customer/...', Array, true)
+#1 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/customer/...', Array)
+#2 C:\xampp\htdocs\hotott1\app\Controllers\CustomerController.php(83): App\Libraries\Template->render('admintemplate', 'contents', 'admin/customer/...', Array)
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CustomerController->index()
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-14 17:29:26 --> Invalid file: admin/company/companylist.php
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/company/c...')
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/company/c...', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/company/c...', Array)
+#3 C:\xampp\htdocs\hotott1\app\Controllers\CompanyController.php(92): App\Libraries\Template->render('admintemplate', 'contents', 'admin/company/c...', Array)
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\CompanyController->index()
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompanyController))
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-14 17:55:50 --> Invalid file: admin/change_password.php
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/change_pa...', Array)
+#3 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(149): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-14 17:55:57 --> Invalid file: admin/change_password.php
+#0 C:\xampp\htdocs\hotott1\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/change_pa...')
+#1 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/change_pa...', Array, true)
+#2 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/change_pa...', Array)
+#3 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(149): App\Libraries\Template->render('admintemplate', 'contents', 'admin/change_pa...')
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->edit_password()
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-14 18:19:08 --> Call to a member function getDataAll() on null
+#0 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#1 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-14 18:25:36 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(114): count(1)
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->dashboard()
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-14 18:42:19 --> Cannot redeclare App\Controllers\Admin::edit_password()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-02-14 18:47:41 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\hotott1\app\Libraries\Template.php on line 15
+#0 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/package/p...', NULL)
+#1 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(192): App\Libraries\Template->render('admintemplate', 'contents', 'admin/package/p...', NULL)
+#2 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->package()
+#3 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-14 19:05:01 --> Illegal string offset 'package_name'
+#0 C:\xampp\htdocs\hotott1\app\Views\admin\package\packagelist.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\hotott1\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hotott1\system\Common.php(1119): CodeIgniter\View\View->render('admin/package/p...', Array, true)
+#3 C:\xampp\htdocs\hotott1\app\Libraries\Template.php(15): view('admin/package/p...', Array)
+#4 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(194): App\Libraries\Template->render('admintemplate', 'contents', 'admin/package/p...', Array)
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->package()
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

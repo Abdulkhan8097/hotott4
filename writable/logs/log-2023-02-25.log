@@ -1,0 +1,291 @@
+CRITICAL - 2023-02-25 17:31:59 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 17:33:41 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:33:57 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:35:06 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:35:43 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:36:55 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:37:03 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:39:57 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:42:32 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:44:30 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:46:40 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:47:31 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:50:49 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:51:43 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:52:42 --> Class 'App\Models\slots' not found
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 17:54:52 --> Class 'App\Models\slots' not found
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:03:52 --> Use of undefined constant turf - assumed 'turf' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-25 18:10:21 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:11:31 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:14:22 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:15:50 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:19:19 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:19:27 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:19:49 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:21:03 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:24:35 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 18:27:12 --> Call to a member function getLastQuery() on null
+#0 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-25 19:05:14 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:07:52 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(78): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:11:01 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(78): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:12:10 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(78): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:12:57 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:13:23 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:14:09 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:15:14 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:15:57 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:16:42 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(38): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 19:17:21 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\kansh_dev\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Slot...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Slot...')
+#3 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(51): spl_autoload_call('App\\Models\\Slot...')
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->action()
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-25 20:08:10 --> Class 'Config\Database' not found
+#0 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(30): CodeIgniter\Model->__construct()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-25 20:18:04 --> Class 'Config\Database' not found
+#0 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(31): CodeIgniter\Model->__construct()
+#1 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#2 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,11 @@
+CRITICAL - 2023-02-10 15:51:05 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\hotott1\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\hotott1\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\hotott1\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\hotott1\app\Models\AdminModel.php(24): CodeIgniter\Model->first()
+#4 C:\xampp\htdocs\hotott1\app\Controllers\Admin.php(58): App\Models\AdminModel->checkAdminLogin('genie@gmail.com', 'City786@2022')
+#5 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\hotott1\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\hotott1\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

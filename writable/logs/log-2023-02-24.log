@@ -1,0 +1,139 @@
+CRITICAL - 2023-02-24 16:30:14 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:30:20 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:30:20 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:30:21 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:30:33 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:19 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:21 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:22 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:22 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:30 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:58 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 16:32:59 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kansh_dev\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kansh_dev\app\Models\CompanySportsModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT OT.* ,S....')
+#2 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(29): App\Models\CompanySportsModel->getData(Array)
+#3 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->index()
+#4 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-24 19:29:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kansh_dev\app\Views\frontend\singup.php(980): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 980, Array)
+#1 C:\xampp\htdocs\kansh_dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kansh_dev\system\Common.php(1119): CodeIgniter\View\View->render('frontend/singup', Array, true)
+#3 C:\xampp\htdocs\kansh_dev\app\Libraries\Template.php(15): view('frontend/singup', Array)
+#4 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(48): App\Libraries\Template->render('template', 'contents', 'frontend/singup')
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->saveBooking()
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-24 19:32:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kansh_dev\app\Views\frontend\singup.php(980): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 980, Array)
+#1 C:\xampp\htdocs\kansh_dev\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kansh_dev\system\Common.php(1119): CodeIgniter\View\View->render('frontend/singup', Array, true)
+#3 C:\xampp\htdocs\kansh_dev\app\Libraries\Template.php(15): view('frontend/singup', Array)
+#4 C:\xampp\htdocs\kansh_dev\app\Controllers\Booking.php(48): App\Libraries\Template->render('template', 'contents', 'frontend/singup')
+#5 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(918): App\Controllers\Booking->saveBooking()
+#6 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#7 C:\xampp\htdocs\kansh_dev\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kansh_dev\public\index.php(49): CodeIgniter\CodeIgniter->run()
+#9 {main}

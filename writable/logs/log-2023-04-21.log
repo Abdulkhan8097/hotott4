@@ -1,0 +1,94 @@
+CRITICAL - 2023-04-21 12:00:39 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 214
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(214): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 12:07:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 216
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(216): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 12:07:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 216
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(216): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 12:20:52 --> There is no data to update.
+#0 C:\xampp\htdocs\hotott\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(166): CodeIgniter\Model->update()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-21 12:20:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 246
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(246): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 17:48:07 --> There is no data to update.
+#0 C:\xampp\htdocs\hotott\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(166): CodeIgniter\Model->update()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-21 17:48:08 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 246
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(246): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 17:50:52 --> There is no data to update.
+#0 C:\xampp\htdocs\hotott\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(166): CodeIgniter\Model->update()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#4 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-21 17:50:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 248
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(248): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 17:52:01 --> syntax error, unexpected 'EXIT' (T_EXIT)
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('WalletSystem/po...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('WalletSystem/po...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 17:52:02 --> syntax error, unexpected 'EXIT' (T_EXIT)
+#0 C:\xampp\htdocs\hotott\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('WalletSystem/po...')
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('WalletSystem/po...')
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 17:52:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 249
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(249): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-21 17:53:27 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php on line 250
+#0 C:\xampp\htdocs\hotott\app\Controllers\WalletSystem.php(250): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\WalletSystem->pointTranferSave()
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

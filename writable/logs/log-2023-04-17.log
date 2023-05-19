@@ -1,0 +1,9 @@
+CRITICAL - 2023-04-17 13:48:16 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\hotott\system\CodeIgniter.php(918): App\Controllers\PinController->adminpinTranferSave()
+#1 C:\xampp\htdocs\hotott\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PinController))
+#2 C:\xampp\htdocs\hotott\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\hotott\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-17 18:59:24 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,27 @@
+CRITICAL - 2023-05-11 10:44:56 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /home/hotottco/public_html/hotottBusiness/app/Controllers/WalletSystem.php on line 428
+#0 /home/hotottco/public_html/hotottBusiness/app/Controllers/WalletSystem.php(428): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\WalletSystem->adminpointTranferSave()
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 10:45:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /home/hotottco/public_html/hotottBusiness/app/Controllers/WalletSystem.php on line 426
+#0 /home/hotottco/public_html/hotottBusiness/app/Controllers/WalletSystem.php(426): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\WalletSystem->adminpointTranferSave()
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 10:46:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /home/hotottco/public_html/hotottBusiness/app/Controllers/WalletSystem.php on line 426
+#0 /home/hotottco/public_html/hotottBusiness/app/Controllers/WalletSystem.php(426): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\WalletSystem->adminpointTranferSave()
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WalletSystem))
+#3 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-11 12:54:17 --> Class 'Mpdf\Mpdf' not found
+#0 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(918): App\Controllers\TransactionController->downloadPDF()
+#1 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransactionController))
+#2 /home/hotottco/public_html/hotottBusiness/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hotottco/public_html/hotottBusiness/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

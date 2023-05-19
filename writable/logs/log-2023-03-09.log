@@ -1,0 +1,483 @@
+CRITICAL - 2023-03-09 12:27:34 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:27:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:27:45 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:27:48 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:27:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:27:52 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:27:53 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:28:16 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:28:17 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:28:26 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 12:28:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render(Array, Array, true)
+#2 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(301): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->sketchList()
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#6 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-03-09 16:20:19 --> fopen(uploads/sketched/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(uploads/s...', 'C:\\xampp\\htdocs...', 254, Array)
+#1 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(254): fopen('uploads/sketche...', 'w')
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-09 16:20:32 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 17:24:25 --> fopen(uploads/sketched/web-development-concept-mouse-cursor-update-icon-text-black-chalkboard-background-d-render-37532542.): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(uploads/s...', 'C:\\xampp\\htdocs...', 254, Array)
+#1 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(254): fopen('uploads/sketche...', 'w')
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-03-09 17:33:49 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\ReportController->index()
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-09 17:33:50 --> Class 'App\Controllers\StateModel' not found
+#0 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\ReportController->index()
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-09 17:54:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\_searchformview.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/_s...', Array, true)
+#3 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\reportlist.php(18): view('admin/Report/_s...')
+#4 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/re...', Array, true)
+#6 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Report/re...', Array)
+#7 C:\xampp\htdocs\jewelnet\app\Controllers\ReportController.php(122): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Report/re...', Array)
+#8 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\ReportController->index()
+#9 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#10 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-09 17:54:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\_searchformview.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/_s...', Array, true)
+#3 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\reportlist.php(18): view('admin/Report/_s...')
+#4 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/re...', Array, true)
+#6 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Report/re...', Array)
+#7 C:\xampp\htdocs\jewelnet\app\Controllers\ReportController.php(122): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Report/re...', Array)
+#8 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\ReportController->index()
+#9 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#10 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-09 17:55:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\_searchformview.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/_s...', Array, true)
+#3 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\reportlist.php(18): view('admin/Report/_s...')
+#4 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/re...', Array, true)
+#6 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Report/re...', Array)
+#7 C:\xampp\htdocs\jewelnet\app\Controllers\ReportController.php(122): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Report/re...', Array)
+#8 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\ReportController->index()
+#9 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#10 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-09 17:55:59 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\_searchformview.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/_s...', Array, true)
+#3 C:\xampp\htdocs\jewelnet\app\Views\admin\Report\reportlist.php(18): view('admin/Report/_s...')
+#4 C:\xampp\htdocs\jewelnet\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Report/re...', Array, true)
+#6 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Report/re...', Array)
+#7 C:\xampp\htdocs\jewelnet\app\Controllers\ReportController.php(122): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Report/re...', Array)
+#8 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\ReportController->index()
+#9 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportController))
+#10 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-09 18:23:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:25:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:25:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:26:10 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:27:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:30:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:30:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:30:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:31:11 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:31:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:31:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:32:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:32:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:33:23 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:33:51 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 220
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(220): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:36:59 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\jewelnet\system\Common.php(1119): CodeIgniter\View\View->render('admin/Necklace/...', Array, true)
+#1 C:\xampp\htdocs\jewelnet\app\Libraries\Template.php(15): view('admin/Necklace/...', Array)
+#2 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(227): App\Libraries\Template->render('admintemplate', 'contents', 'admin/Necklace/...', Array)
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#4 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#5 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-09 18:37:00 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:37:07 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:38:29 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:38:58 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:39:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:39:46 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:39:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:40:19 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:40:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:41:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:41:36 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:41:54 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:42:09 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:42:23 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:42:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:44:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:45:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:45:19 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:45:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:46:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:46:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:46:38 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 221
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(221): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:51:21 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 225
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(225): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-09 18:52:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php on line 225
+#0 C:\xampp\htdocs\jewelnet\app\Controllers\NecklaceController.php(225): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(920): App\Controllers\NecklaceController->CheckAll()
+#2 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NecklaceController))
+#3 C:\xampp\htdocs\jewelnet\system\CodeIgniter.php(314): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jewelnet\public\index.php(50): CodeIgniter\CodeIgniter->run()
+#5 {main}
